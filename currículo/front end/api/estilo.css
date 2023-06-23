@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(22, 213, 184);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.painel{
+background-color: rgb(246, 247, 246);
+width: 400px;
+height: 400px;
+padding-top:20px;
+padding-left: 100px;
+margin: auto;
+margin-top: 50px;
+border-radius: 20px;
+}
+
+.botao{
+    background-color: rgb(239, 7, 243);
+    border: none;
+    color:white;
+    height: 40px;
+    width: 30px;
+    border-radius: 10px;
+
+}
+
+.botao-hover{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+}
+
+#cep{
+    height: 32px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    text-align: center;
+
+}
+
+
+
+
+
+    

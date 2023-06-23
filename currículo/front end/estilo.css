@@ -1,0 +1,57 @@
+data:
+    border: 5px solid blue;
+    border-radius: 100%;
+
+}
+
+body {
+    background-color: rgb(124, 11, 146);
+    text-align: center;
+    /*background-color:red;  */
+    background-image: linear-gradient(to top, rgb(187, 84, 84)), rgb(228, 159, 32)
+}
+
+ul {
+    list-style: none;
+
+}
+
+.menu {
+    background-color: rgb(57, 148, 151);
+    border-radius: 15px;
+}
+
+
+
+.menu ul li {
+
+
+    display: inline;
+
+}
+
+.menu ul li a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+
+.tabela{
+   text-align:left; 
+   background-color:rgb(26, 145, 105);
+   color:rgb(255, 255, 255);
+   font-family:fantasy;
+
+
+.tabela tr td:hover
+    font-size: 20px;
+    color:  yellow
+    
+
+    
+
+
+}

@@ -1,0 +1,43 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHbWLFUeJqL2KEQD9J9Ntch_yJiw0AUTdUCQ&usqp=CAU);
+    background-size: cover;
+
+}
+
+.botao{
+    background-color: rgb(9, 240, 240);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.painel{
+    width: 500px;
+    background-color: aliceblue;
+    height: 300px ;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.moedas{
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(191, 30, 245);
+}
+img{
+    animation rotacionar {
+
+    }
+@keyframes rotacionar {
+    0%{
+        transform: rotate 3d(0,1,0 0deg)
+
+    
+     transform: rotate3d (0,1,0 360deg)
+}
+    
+

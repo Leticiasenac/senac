@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Jogo da Velha</title>
+
+      <link rel="stylesheet" href="estilo.css">
+      <script src="javascript.js"></script>
+</head>
+
+<body>
+
+
+      <div class="container">
+            <div>
+
+
+                  <button onclick="gerarBatalha()"> GerarBatalha</button>
+                  <span id="jogador1"> </span>
+                  <span> vs </span>
+                  <span id="jogador2"></span>
+                  <table class="jogo" border="2">
+
+                        <tr>
+                              <td id="q1" class="quadrado" onclick="jogar(this)">x</td>
+                              <td id="q2" class="quadrado" onclick="jogar(this)"></td>
+                              <td id="q3" class="quadrado" onclick="jogar(this)"></td>
+                        <tr>
+                        <tr>
+                              <td id="q4" class="quadrado" onclick="jogar(this)"></td>
+                              <td id="q5" class="quadrado" onclick="jogar(this)"></td>
+                              <td id="q6" class="quadrado" onclick="jogar(this)"></td>
+                        <tr>
+                        <tr>
+                              <td id="q7" class="quadrado" onclick="jogar(this)"></td>
+                              <td id="q8" class="quadrado" onclick="jogar(this)"></td>
+                              <td id="q9" class="quadrado" onclick="jogar(this)"></td>
+                        </tr>
+
+                  </table>
+
+                  <button onclick="reiniciar()">Reiniciar</button>
+            </div>
+
+
+
+
+            <div>
+                  <label for=""> Nome:</label>
+                  <input type="text" id="nome">
+
+                  <button onclick="adicionar()"> Adicionar</button>
+
+                  <ul id="lista">
+
+                  </ul>
+
+            </div>
+      </div>

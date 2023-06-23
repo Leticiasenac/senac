@@ -1,0 +1,78 @@
+.quadrado{ 
+
+  width: 200px;
+  height: 200px;
+  
+  text-align: center;
+  font-size: 150px;
+  border: 2px solid red;
+  border-radius: 20px
+}
+.container{
+  display: flex;
+}
+
+
+.jogo{
+  background: rgb(6, 230, 204);
+  color:rgb(228, 221, 221);
+  margin: 0 auto;
+}
+  
+
+
+body {
+ background-color: rgb(232, 232, 12);
+ font-family: fantasy;
+ text-align: center;
+}
+button{
+  background-color: chartreuse;
+  font-size: 30px;
+  border-radius: 10px;
+  
+}
+button:hover{
+background-color: crimson;
+}
+span{
+  color: rgb(240, 12, 141);
+  font-size: 50px;
+}
+#q1{
+  background-color: rgb(221, 114, 227);
+  border:5px solid rgb(221, 213, 210);
+
+}
+#q2{
+  background-color: rgb(199, 24, 218);
+  border:5px solid
+}
+#q3{
+  background-color: rgb(210, 72, 182);
+  border: 5px solid;
+}
+#q4{
+  background-color: rgb(15, 217, 160);
+  border: 5px solid;
+}
+#q5{
+  background-color: rgb(11, 243, 104);
+  border: 5px solid;
+}
+#q6{
+  background-color: rgb(7, 242, 7);
+  border: 5px solid;
+}
+#q7{
+  background-color: rgb(157, 32, 55);
+  border: 5px solid;
+}
+#q8{
+  background-color: rgb(197, 40, 40);
+  border: 5px solid;
+}
+#q9{
+  background-color: rgba(247, 19, 65, 0.762);
+  border: 5px solid;
+}

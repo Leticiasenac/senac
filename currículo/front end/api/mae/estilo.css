@@ -1,0 +1,33 @@
+body {
+    background-image: url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWwTjkxhdQ4sw-NyPU_g6uj2f9hIJnmXj6WA&usqp=CAU;);
+    background-size: cover;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-seri;
+}
+
+.painel{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(44, 235, 226);
+    border-radius: 10px;
+    padding-left: 40px;
+    margin: auto;
+    margin-top: 70px;
+    border: 1px solid gray;
+}
+
+.botão{
+    background-color:rgb(226, 43, 177);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+}
+.botão:hover{
+   background-color: red;
+   height: 50px;
+   width: 70px;
+   transition: 1s;
+}
+
